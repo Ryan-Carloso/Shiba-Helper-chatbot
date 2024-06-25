@@ -1,0 +1,74 @@
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box {
+  max-width: 28rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 66.666667%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinha no início da coluna */
+}
+
+.message {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.message-item {
+  margin-bottom: 0.5rem;
+  display: flex; /* Adicionado para poder usar justify-content */
+}
+
+.message-bubble {
+  max-width: 20rem;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.user-message {
+  background-color: #059669;
+  color: #ffffff;
+  justify-content: flex-start; /* Alinha no início da linha */
+  margin-right: auto; /* Move o elemento para a direita */
+}
+
+.other-message {
+  background-color: #d1d5db;
+  color: #000000;
+  justify-content: flex-end; /* Alinha no final da linha */
+  margin-left: auto; /* Move o elemento para a esquerda */
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-end; /* Alinha no final da linha */
+  align-items: flex-start; 
+}
+
+.input-field {
+  flex-grow: 1;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: 1px solid #9ca3af;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.send-button {
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
